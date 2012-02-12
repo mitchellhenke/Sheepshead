@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="8"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/topRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+        <TextView
+            android:id="@+id/o2Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:text="@string/Opponent2" />
+
+        <ImageView
+            android:id="@+id/o2c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/o2c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/o2c3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/o2c4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/o2c5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+        </ImageView>
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/middleRow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/leftCol"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/o1Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:text="@string/Opponent1" />
+
+            <ImageView
+                android:id="@+id/o1c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/o1c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/o1c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/o1c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/o1c5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </ImageView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2" >
+
+            <ImageView
+                android:id="@+id/deck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dp" />
+
+            <LinearLayout
+                android:id="@+id/cardsThrown"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:layout_toLeftOf="@+id/deck" >
+
+                <ImageView
+                    android:id="@+id/card5"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp" />
+
+                <ImageView
+                    android:id="@+id/card4"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="-60dp" />
+
+                <ImageView
+                    android:id="@+id/card3"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="-60dp" />
+
+                <ImageView
+                    android:id="@+id/card2"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="-60dp" />
+
+                <ImageView
+                    android:id="@+id/card1"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="-60dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/rightCol"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/o3Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Opponent3" />
+
+            <ImageView
+                android:id="@+id/o3c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/o3c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/o3c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/o3c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/o3c5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </ImageView>
+        </LinearLayout>
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/p1Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center_horizontal"
+            android:text="@string/Player" />
+
+        <TableLayout
+            android:id="@+id/p1CardsAndActionButtonContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TableRow>
+                <RelativeLayout
+                    android:id="@+id/p1cardscontainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_gravity="left"
+                    android:gravity="left" >
+
+                    <ImageView
+                        android:id="@+id/p1c1"
+                        android:src="@drawable/ac"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="0dp" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/p1c2"
+                        android:src="@drawable/ad"
+        				android:layout_toRightOf="@+id/p1c1" 
+        				android:layout_marginLeft="-5dp" 
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="0dp" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/p1c3"
+                        android:src="@drawable/ah"
+        				android:layout_toRightOf="@+id/p1c2" 
+        				android:layout_marginLeft="-5dp" 
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="bottom" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/p1c4"
+                        android:src="@drawable/kc"
+        				android:layout_toRightOf="@+id/p1c3" 
+        				android:layout_marginLeft="-5dp" 
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="0dp" >
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/p1c5"
+                        android:src="@drawable/kd"
+        				android:layout_toRightOf="@+id/p1c4" 
+        				android:layout_marginLeft="-5dp" 
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="bottom" >
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/p1c6"
+                        android:src="@drawable/kd"
+        				android:layout_toRightOf="@+id/p1c5" 
+        				android:layout_marginLeft="-5dp" 
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="bottom" >
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/p1c7"
+                        android:src="@drawable/kd"
+        				android:layout_toRightOf="@+id/p1c6" 
+        				android:layout_marginLeft="-5dp" 
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="bottom" >
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/p1c8"
+        				android:layout_toRightOf="@+id/p1c7" 
+        				android:layout_marginLeft="-5dp" 
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="bottom" >
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/p1c9"
+        				android:layout_toRightOf="@+id/p1c8" 
+        				android:layout_marginLeft="-5dp" 
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="bottom" >
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/p1c10"
+        				android:layout_toRightOf="@+id/p1c9" 
+        				android:layout_marginLeft="-5dp" 
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="bottom" >
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/p1c11"
+        				android:layout_toRightOf="@+id/p1c10" 
+        				android:layout_marginLeft="-5dp" 
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="bottom" >
+                    </ImageView>
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</TableLayout>

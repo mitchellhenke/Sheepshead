@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SheepsheadActivity!</string>
+    <string name="app_name">Sheepshead</string>
+	<string name="Heading">Yaniv - A Card Game </string>
+	<string name="DropSelected">Drop Cards</string>
+	<string name="Player">Player</string>
+	<string name="Opponent1">Sivan</string>
+	<string name="Opponent2">Iddo</string>
+	<string name="Opponent3">Elad</string>
+	<string name="msg1">You can only pick up cards if it\'s your turn
+	</string>
+	<string name="msg1Heading">Not Your Turn</string>
+	<string name="dialogOkMsg">Got it!</string>
+
+	<string name="PerformYaniv">Yaniv!</string>
+	<string name="NextPlayer">Next!</string>
+	<!-- Strings for the main screen -->
+	<string name="MainScreenTitle">Welcome to YanDroid!</string>
+	<string name="ResumeButton">Resume</string>
+	<string name="StartButton">Start</string>
+	<string name="TutorialButton">Tutorial</string>
+	<string name="ExitButton">Exit</string>
+</resources>
